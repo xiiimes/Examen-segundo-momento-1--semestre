@@ -1,0 +1,134 @@
+.menu{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ebedf3 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 1400px;
+    margin: 10px auto;
+}
+
+.superior{
+    background-color: #1551a1;
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo{
+    float: left;
+    width: 300px;
+    padding: 35px;
+}
+
+/*estilos para el menu de opciones*/
+.menu{
+    float: left;
+    padding: 50px;
+}
+
+.opciones li{
+    float: left;
+    list-style: none;
+}
+
+.opciones li a{
+    color: white;
+    padding: 20px;
+    list-style-type:none;
+    border: 1px solid white;
+}
+
+.opciones li a:hover{
+    background-color: #1551a1;
+}
+
+.slider{
+    background-image: url(./multimedia/mecanico.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    width: 1700px;
+}
+
+/*estilos para cuerpo*/
+.cuerpo{
+    overflow: hidden;
+}
+.caja{
+    float: left;
+    width: 380px;
+    margin: 30px;
+    border: 1px solid;
+}
+.subtitulo{
+    background-color: #1551a1;
+}
+.servicios{
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+}
+.efecto:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.contenido{
+    padding: 20px;
+    text-align: justify;
+}
+.boton{
+    padding: 18px 20px;
+    margin: 12px 0;
+    text-align: center;
+    background-position: center;
+    color: white;
+    background: #1551a1;
+    border-radius: 5px;
+}
+.boton:hover{
+    background: #10325f;
+    cursor: pointer;
+}
+.center-button {
+    display: block;
+    margin: 0 auto;
+}
+.titulo{
+    text-align: center;
+    padding: 20px 0 15px 0;
+    color: #ff7600;
+    font-size: 30px;
+}
+/*estilos del footer*/
+.pie{
+    background-color: #062348;
+    overflow: hidden;
+}
+.izquierda{
+    float: left;
+    width: 780px;
+    padding: 1px;
+}
+.derecha{
+   float: left; 
+   width: 550px;
+}
+.abajo{
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+}
+.siguenos{
+    text-align: center;
+    color: white;
+    padding: 15px o;
+}
+.center {
+    text-align: center;
+}
