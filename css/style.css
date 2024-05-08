@@ -49,7 +49,7 @@ body{
 }
 
 .slider{
-    background-image: url(./multimedia/mecanico.jpg);
+    background-image: url(../multimedia/mecanico.jpg);
     background-size: cover;
     background-position: center;
     height: 75vh;
